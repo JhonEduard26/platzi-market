@@ -82,4 +82,20 @@ public class Buy {
     public void setStatus(String status) {
         this.status = status;
     }
+
+    public Client getClient() {
+        return client;
+    }
+
+    public void setClient(Client client) {
+        this.client = client;
+    }
+
+    public List<BuyProduct> getProducts() {
+        return products;
+    }
+
+    public void setProducts(List<BuyProduct> products) {
+        this.products = products;
+    }
 }
