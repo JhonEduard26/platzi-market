@@ -57,4 +57,20 @@ public class BuyProduct {
     public void setStatus(Boolean status) {
         this.status = status;
     }
+
+    public Buy getBuy() {
+        return buy;
+    }
+
+    public void setBuy(Buy buy) {
+        this.buy = buy;
+    }
+
+    public Product getProduct() {
+        return product;
+    }
+
+    public void setProduct(Product product) {
+        this.product = product;
+    }
 }
