@@ -19,6 +19,7 @@ public class BuyProduct {
     private Boolean status;
 
     @ManyToOne
+    @MapsId("idBuy")
     @JoinColumn(name = "id_compra", insertable = false, updatable = false)
     private Buy buy;
 

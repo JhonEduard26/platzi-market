@@ -32,7 +32,7 @@ public class Buy {
     @JoinColumn(name = "id_cliente", insertable = false, updatable = false)
     private Client client;
 
-    @OneToMany(mappedBy = "buy")
+    @OneToMany(mappedBy = "buy", cascade = {CascadeType.ALL})
     private List<BuyProduct> products;
 
     public Long getIdBuy() {
